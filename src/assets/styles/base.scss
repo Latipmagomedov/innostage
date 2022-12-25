@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $black;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+button, input, textarea, select {
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+input {
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
